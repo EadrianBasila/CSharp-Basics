@@ -1,0 +1,11 @@
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\bin\Debug\netcoreapp3.1\Console_ATM-OOP.exe
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\bin\Debug\netcoreapp3.1\Console_ATM-OOP.deps.json
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\bin\Debug\netcoreapp3.1\Console_ATM-OOP.runtimeconfig.json
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\bin\Debug\netcoreapp3.1\Console_ATM-OOP.runtimeconfig.dev.json
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\bin\Debug\netcoreapp3.1\Console_ATM-OOP.dll
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\bin\Debug\netcoreapp3.1\Console_ATM-OOP.pdb
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\obj\Debug\netcoreapp3.1\Console_ATM-OOP.csprojAssemblyReference.cache
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\obj\Debug\netcoreapp3.1\Console_ATM-OOP.AssemblyInfoInputs.cache
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\obj\Debug\netcoreapp3.1\Console_ATM-OOP.AssemblyInfo.cs
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\obj\Debug\netcoreapp3.1\Console_ATM-OOP.dll
+C:\Users\Basila Family\source\repos\Console_ATM-OOP\Console_ATM-OOP\obj\Debug\netcoreapp3.1\Console_ATM-OOP.pdb

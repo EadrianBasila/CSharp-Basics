@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Console_ATM-OOP/1.0.0": {
+        "runtime": {
+          "Console_ATM-OOP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Console_ATM-OOP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
