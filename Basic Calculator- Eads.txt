@@ -5,74 +5,70 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections.Generic;
+
 //using nsClearConsole;
 
 class Program
 {
     static void Main()
     {
-       var operatorOperations = new List<string> { "Null", "Addition", "Subtraction", "Multiplication", "Division",  "Added", "Subtracted", "Multiplied", "Divided"};
-       
-       var Green = ConsoleColor.Green;
+        var operatorOperations = new List<string> { "Null", "Addition", "Subtraction", "Multiplication", "Division", "Added", "Subtracted", "Multiplied", "Divided" };
+
+        var Green = ConsoleColor.Green;
         Console.ForegroundColor = Green;
-            Console.WriteLine("|:     Basic Calculator   :|");
-            Console.WriteLine("|: Made by Eadrian Basila :|");
-        
-        System.Threading.Thread.Sleep(4000);
-            Console.WriteLine("");
-            Console.WriteLine("[Choose your Operation:]");
-        
-        System.Threading.Thread.Sleep(4000);
-            Console.WriteLine("=======================");
-            Console.WriteLine("(1) Addition       [+].");
-            Console.WriteLine("(2) Subtraction    [-]."); 
-            Console.WriteLine("(3) Multiplication [*]."); 
-            Console.WriteLine("(4) Division.      [/].");
-            Console.WriteLine("=======================");
-            Console.WriteLine("");
-            Console.WriteLine("Enter your Option: ");  
-        
-        int operatorOption = Console.ReadLine();
-            Console.WriteLine("");
-            Console.WriteLine("You've chosen = {0}", operatorOperations[operatorOption]);    
-        
-        System.Threading.Thread.Sleep(4000);
-        
-        Console.WriteLine("Please enter your first variable to be {0} =", operatorOperations[operatorOption + 4] );
-            int variableFirst = Console.ReadLine();
-        
-        Console.WriteLine("Please enter your second variable to be {0} =", operatorOperations[operatorOption + 4] );
-            int variableSecond = Console.ReadLine();
-        
+        Console.WriteLine("|:     Basic Calculator   :|");
+        Console.WriteLine("|: Made by Eadrian Basila :|");
+        Console.WriteLine("");
+        Console.WriteLine("[Choose your Operation:]");
+        Console.WriteLine("=======================");
+        Console.WriteLine("(1) Addition       [+].");
+        Console.WriteLine("(2) Subtraction    [-].");
+        Console.WriteLine("(3) Multiplication [*].");
+        Console.WriteLine("(4) Division.      [/].");
+        Console.WriteLine("=======================");
+        Console.WriteLine("");
+        Console.WriteLine("Enter your Option: ");
+
+        int operatorOption = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("");
+        Console.WriteLine("You've chosen = {0}", operatorOperations[operatorOption]);
+
+        System.Threading.Thread.Sleep(1000);
+
+        Console.WriteLine("Please enter your first variable to be {0} =", operatorOperations[operatorOption + 4]);
+        int variableFirst = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Please enter your second variable to be {0} =", operatorOperations[operatorOption + 4]);
+        int variableSecond = Convert.ToInt32(Console.ReadLine());
+
         if (operatorOption == 1)
         {
             Console.WriteLine("");
             int totalVariable = variableFirst + variableSecond;
             Console.WriteLine("The sum is = {0}", totalVariable);
         }
-        
-        if (operatorOption == 2)
+
+        else if (operatorOption == 2)
         {
             Console.WriteLine("");
             int totalVariable = variableFirst - variableSecond;
-            Console.WriteLine("The difference is = {0}", totalVariable);    
+            Console.WriteLine("The difference is = {0}", totalVariable);
         }
-        
-        if (operatorOption == 3)
+
+        else if (operatorOption == 3)
         {
             Console.WriteLine("");
             int totalVariable = variableFirst * variableSecond;
             Console.WriteLine("The product is = {0}", totalVariable);
         }
-        
-        if (operatorOption == 4)
+
+        else if (operatorOption == 4)
         {
             Console.WriteLine("");
             int totalVariable = variableFirst / variableSecond;
             Console.WriteLine("The quotient is = {0}", totalVariable);
         }
-        
+
         else
         {
             Console.WriteLine("[Please choose carefully from the options provided.]");
@@ -80,4 +76,3 @@ class Program
         }
     }
 }
-
